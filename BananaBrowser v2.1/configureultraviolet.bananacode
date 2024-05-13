@@ -1,0 +1,9 @@
+\\ULTRAVIOLET V2.0.0
+setting.server; localhost:8080
+setting.vm.latency; low
+setting.vm.type; linux-distx64
+setting.show?.taskbar; false
+/vm-style; browser.TakeInput.user.controls{true}, show?.browser.controls{false}
+/vm-style.close
+/js; window.open(browser.TakeInput.user.controls)
+/js.close
